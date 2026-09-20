@@ -12,3 +12,4 @@ pnpm-lock.yaml
 .env.local
 .env.*.local
 dist
+.codegraph
