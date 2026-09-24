@@ -32,4 +32,3 @@ export class Class {
 
 export const ClassSchema = SchemaFactory.createForClass(Class);
 ClassSchema.index({ teacherId: 1 });
-ClassSchema.index({ inviteCode: 1 });

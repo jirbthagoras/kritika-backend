@@ -22,4 +22,3 @@ export class Badge {
 }
 
 export const BadgeSchema = SchemaFactory.createForClass(Badge);
-BadgeSchema.index({ badgeKey: 1 });

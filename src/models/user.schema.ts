@@ -6,7 +6,6 @@ export type UserDocument = User & Document;
 export enum UserRole {
   TEACHER = 'teacher',
   STUDENT = 'student',
-  ADMIN = 'admin',
 }
 
 @Schema({ timestamps: true })
@@ -31,5 +30,4 @@ export class User {
 }
 
 export const UserSchema = SchemaFactory.createForClass(User);
-UserSchema.index({ email: 1 });
 UserSchema.index({ role: 1 });
